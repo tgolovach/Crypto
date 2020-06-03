@@ -49,7 +49,7 @@ public class Laba1 {
         System.out.println("2 - Bigrama");
         int nGrama = Integer.parseInt(reader.readLine());
         if (nGrama == 2) {
-            System.out.println("Letters will cross(y) or letter will not cross(n)");
+            System.out.println("Letters will cross(y) or not(n)");
             String isCrossing = reader.readLine();
             if (isCrossing.equals("y")) {
                 isCrossingLetters = true;
